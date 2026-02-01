@@ -65,7 +65,7 @@ An embedded chatbot allows students to ask:
 - “Give me study tips”  
 - “How do I manage time better?”  
 
-Powered using **OpenRouter (DeepSeek R1T Chimera – free model)**.
+Powered using **OpenRouter (DeepSeek R1T Chimera)**.
 
 Works like ChatGPT directly inside the app.
 
@@ -78,12 +78,10 @@ Works like ChatGPT directly inside the app.
 - XGBoost + Joblib (ML Model)  
 - Pandas / NumPy  
 - OpenRouter API (Chatbot)  
-
+- Matplotlib / Seaborn
 ---
 
 ## 📂 Project Structure
-
-FutureYou-AI/
 
 ├── app.py                         
 
@@ -216,6 +214,10 @@ Streamlit will automatically:
 https://academic-agent-new-6rrwyyehermyi3g4enytjk.streamlit.app/
 
 ---
+
+### Team Name :
+
+    HAD H YRR 2
 
 ### Author:
 
