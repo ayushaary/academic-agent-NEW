@@ -83,3 +83,21 @@ Works like ChatGPT directly inside the app.
 
 ## 📂 Project Structure
 
+FutureYou-AI/
+
+│
+├── app.py                                           # Streamlit UI
+
+├── agent.py                                         # Academic Agent logic
+
+├── llm.py          # Chatbot integration
+
+├── model.pkl       # Trained ML model
+
+├── features.pkl    # Feature list
+
+├── processed_data.csv # Dataset
+
+├── requirements.txt
+
+└── README.md
