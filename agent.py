@@ -2,7 +2,6 @@ import joblib
 import pandas as pd
 import os
 
-# Load model + features from local project folder
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 model = joblib.load(os.path.join(BASE_DIR, "model.pkl"))
@@ -12,10 +11,10 @@ def academic_agent(user_input):
 
     user_df = pd.DataFrame(user_input, columns=features)
 
-    # ---------------- PURE ML PREDICTION ----------------
+    # XG Boost
     ml_prediction = model.predict(user_df)[0]
 
-    # ---------------- AGENT REWARD ----------------
+    # AGENT
     def reward(df):
         bonus = 0
 
@@ -30,7 +29,7 @@ def academic_agent(user_input):
 
         return bonus
 
-    # ---------------- SIMULATION ----------------
+    # SIMULATION
     def simulate(changes):
         temp = user_df.copy()
 
@@ -58,3 +57,4 @@ def academic_agent(user_input):
     optimized_prediction = best_score
 
     return ml_prediction, optimized_prediction, best_action, scenarios
+
