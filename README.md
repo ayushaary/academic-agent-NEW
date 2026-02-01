@@ -251,6 +251,14 @@ https://academic-agent-new-6rrwyyehermyi3g4enytjk.streamlit.app/
 
 ---
 
+### Images:
+
+![Screenshot_1-2-2026_6505_academic-agent-new-6rrwyyehermyi3g4enytjk streamlit app](https://github.com/user-attachments/assets/ad21d244-120f-47d9-90e6-947acad8fa4e)
+![Screenshot_1-2-2026_65045_academic-agent-new-6rrwyyehermyi3g4enytjk streamlit app](https://github.com/user-attachments/assets/31139842-1de7-4936-9ef2-e34706ec5fab)
+![Screenshot_1-2-2026_65121_academic-agent-new-6rrwyyehermyi3g4enytjk streamlit app](https://github.com/user-attachments/assets/60ae2831-5113-43b4-9f9d-467fa419b306)
+
+---
+
 ### Team Name :
 
     HAD H YRR 2
