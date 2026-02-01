@@ -292,7 +292,7 @@ Data --> ML
 
 ---
 
-### 🌐 Live Demo
+### 🌐 Live Deployed Link
 
 https://academic-agent-new-6rrwyyehermyi3g4enytjk.streamlit.app/
 
