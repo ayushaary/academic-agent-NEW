@@ -86,18 +86,65 @@ Works like ChatGPT directly inside the app.
 FutureYou-AI/
 
 │
-├── app.py                                           # Streamlit UI
+├── app.py                         
 
-├── agent.py                                         # Academic Agent logic
+├── agent.py                                      
 
-├── llm.py          # Chatbot integration
+├── llm.py        
 
-├── model.pkl       # Trained ML model
+├── model.pkl      
 
-├── features.pkl    # Feature list
+├── features.pkl   
 
-├── processed_data.csv # Dataset
+├── processed_data.csv
 
 ├── requirements.txt
 
 └── README.md
+
+
+
+### 🛠 Local Setup (Optional)
+
+If you want to run locally:
+
+### 1. Clone repository
+git clone https://github.com/ayushaary/academic-agent-NEW.git
+
+cd academic-agent-NEW
+
+### 2. Install dependencies
+pip install -r requirements.txt
+
+### 3. Run app
+streamlit run app.py
+
+### ☁️ Deploy on Streamlit Cloud 
+**Step 1 — Open Streamlit Cloud**
+
+Go to:
+
+👉 https://share.streamlit.io/
+
+Login using GitHub.
+
+**Step 2 — Create New App**
+
+Click New App.
+
+Fill:
+
+**Field	-** Value
+
+**Repository -** ayushaary/academic-agent-NEW
+
+**Branch -**	main
+
+**Main file path -**	app.py
+
+Click Deploy.
+
+Streamlit will automatically:
+ - Create Python environment
+ - Install dependencies from requirements.txt
+ - Launch your app
