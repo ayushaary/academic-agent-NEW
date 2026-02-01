@@ -191,6 +191,42 @@ Streamlit will automatically:
 
 ### Architecture Overview
 
+User["User (Browser)"]
+
+|
+
+Data["Processed Dataset (processed_data.csv)"]
+
+|
+
+ML["ML Model (XGBoost + model.pkl)"]
+
+|
+
+Agent["Academic Agent (agent.py)"]
+
+|
+
+OpenRouter["OpenRouter API (DeepSeek Chimera)"]
+
+|
+
+Chatbot["💬 Chatbot Layer (llm.py)"]
+
+|
+
+Streamlit["Streamlit Frontend (app.py)"]
+
+User --> Streamlit
+
+ML --> Agent
+Agent --> Streamlit
+
+Chatbot --> OpenRouter
+OpenRouter --> Chatbot
+
+Data --> ML
+
 ---
 
 ### Known Limitations
