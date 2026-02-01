@@ -294,6 +294,8 @@ Data --> ML
 
 ### 🌐 Live Deployed Link
 
+Deployed on Streamlit.io
+
 https://academic-agent-new-6rrwyyehermyi3g4enytjk.streamlit.app/
 
 ---
