@@ -102,7 +102,7 @@ FutureYou-AI/
 
 └── README.md
 
-
+---
 
 ### 🛠 Local Setup (Optional)
 
@@ -118,6 +118,8 @@ pip install -r requirements.txt
 
 ### 3. Run app
 streamlit run app.py
+
+---
 
 ### ☁️ Deploy on Streamlit Cloud 
 **Step 1 — Open Streamlit Cloud**
@@ -148,3 +150,69 @@ Streamlit will automatically:
  - Create Python environment
  - Install dependencies from requirements.txt
  - Launch your app
+
+---
+
+### How to Use the App
+
+ - Open the deployed Streamlit link.
+ - Fill in your academic details from the left sidebar:
+      - Study time, travel time, free time, social time.
+      - Previous SGPA (G1, G2).
+      - Health, absences, support indicators, etc.
+ - Click Simulate Future.
+
+**You’ll see:**
+
+ - Predicted SGPA (Next Semester) — XG Boost output
+ - Optimised SGPA — Agent-simulated best future
+ - Best Action — highest impact improvement
+ - All Agent Futures — alternative scenarios
+ - Use the Academic Chatbot at the bottom to ask questions about study habits, GPA improvement, or time management.
+
+---
+
+### How It Works
+
+**ML Prediction**
+ - XGBoost model predicts baseline SGPA using student features.
+
+**Agent Simulation**
+ - Multiple “what-if” actions are applied (study + hours, fewer absences, better health, etc.).
+ - Each scenario is re-evaluated.
+ - The agent selects the action with maximum SGPA gain.
+
+**Chatbot (using API)**
+ - Chatbot calls OpenRouter using a private API key (stored as Streamlit Secret).
+ - Frontend never sees the API key.
+ - User queries are sent to OpenRouter (DeepSeek Chimera).
+ - Responses are shown directly in the Streamlit UI.
+
+---
+
+### Architecture Overview
+
+---
+
+### Known Limitations
+ - Model trained on a limited dataset.
+ - Chatbot responses depend on free API quota.
+ - SGPA predictions are indicative, not guaranteed outcomes.
+
+---
+
+### Future Improvements
+ - Burnout / fatigue modeling.
+ - Mental health scoring.
+ - Calendar integration.
+ - User login + saved profiles.
+ - Better mobile UI
+
+---
+
+### 🌐 Live Demo
+
+https://academic-agent-new-6rrwyyehermyi3g4enytjk.streamlit.app/
+
+---
+
