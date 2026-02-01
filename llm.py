@@ -16,7 +16,7 @@ def chatbot_response(prompt):
             {"role": "system", "content": "You are an academic assistant helping students improve study habits and GPA."},
             {"role": "user", "content": prompt}
         ],
-        "max_tokens": 1000,     # <<< IMPORTANT
+        "max_tokens": 1000,    
         "temperature": 0.7
     }
 
@@ -31,3 +31,4 @@ def chatbot_response(prompt):
 
     except Exception as e:
         return f"❌ OpenRouter error: {e}"
+
