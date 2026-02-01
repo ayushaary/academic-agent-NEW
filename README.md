@@ -57,6 +57,8 @@ Predicts **next semester SGPA** using a trained XG Boost model based on:
 - Lifestyle habits  
 - Previous semester SGPA  
 
+<img width="163" height="62" alt="image" src="https://github.com/user-attachments/assets/24af5d7b-483c-47bd-abd8-84983bb243eb" />
+
 ---
 
 ### 🤖 Agentic Optimization
