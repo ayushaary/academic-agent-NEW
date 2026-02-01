@@ -85,12 +85,13 @@ Works like ChatGPT directly inside the app.
 
 FutureYou-AI/
 
-│
 ├── app.py                         
 
 ├── agent.py                                      
 
-├── llm.py        
+├── llm.py 
+
+├── model training.ipynb
 
 ├── model.pkl      
 
@@ -216,3 +217,11 @@ https://academic-agent-new-6rrwyyehermyi3g4enytjk.streamlit.app/
 
 ---
 
+### Author:
+
+    Disha Agrawal
+    Ayush Aary
+
+### Institution : 
+
+    IIT Roorkee
