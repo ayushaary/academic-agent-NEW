@@ -30,6 +30,16 @@ This project aims to bridge that gap.
 
 ---
 
+### About the Dataset
+
+We used a dataset from Kaggle, the Dataset is for a Porteguese Institution (named - Student Performance Data Set by uci).
+
+As per the Indian Education system, this dataset will not be that effective for predictions.
+
+If we have the dataset of Indian Students, the predictions will be more accurate.
+
+---
+
 ### Solution Overview
 
 FutureYou AI – Academic Twin , is an intelligent academic assistant that predicts a student’s next semester SGPA using machine learning and then simulates multiple lifestyle changes to recommend the most effective improvement strategy.
