@@ -237,7 +237,8 @@ Streamlit will automatically:
 
 ### Architecture Overview
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/2f954d2e-9eb3-4cc3-9d47-f6f086e81501" />
+<img width="2816" height="1021" alt="Gemini_Generated_Image_7qbowm7qbowm7qbo" src="https://github.com/user-attachments/assets/0ea2ee60-2b20-4b2e-9fe7-651ac8c88e49" />
+
 
 ---
 
